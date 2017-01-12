@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_oyun"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.erkin.p.Oyun"
+    android:background="@android:color/black">
+
+    <Button
+        android:text="Button"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/metinsoru"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/A"
+        android:layout_width="300dp"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/black"
+        android:textColorLink="?attr/actionMenuTextColor" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/A"
+        android:layout_alignLeft="@+id/A"
+        android:layout_alignStart="@+id/A"
+        android:layout_marginTop="26dp"
+        android:id="@+id/B"
+        android:textColorLink="?attr/actionMenuTextColor"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_green_dark" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/süre"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/A"
+        android:layout_alignEnd="@+id/A"
+        android:layout_marginTop="30dp"
+        android:textColorLink="@android:color/holo_green_dark"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:background="?attr/colorBackgroundFloating" />
+
+    <TextView
+        android:text="puanınız: 0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/süre"
+        android:layout_toLeftOf="@+id/süre"
+        android:layout_toStartOf="@+id/süre"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp"
+        android:id="@+id/puan"
+        android:background="?attr/colorBackgroundFloating"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorLink="@android:color/holo_green_dark"
+        android:textStyle="bold" />
+
+    <Button
+        android:text="PAS"
+        android:id="@+id/pas"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/black"
+        android:textColorLink="?attr/actionMenuTextColor"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_marginTop="30dp"
+        android:id="@+id/metinsoru"
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:background="@android:color/holo_green_dark"
+        android:textColorLink="?attr/actionMenuTextColor"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/süre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/C"
+        android:background="@android:color/holo_green_dark"
+        android:textColorLink="?attr/actionMenuTextColor"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/B"
+        android:layout_alignLeft="@+id/B"
+        android:layout_alignStart="@+id/B" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/D"
+        android:textColorLink="?attr/actionMenuTextColor"
+        android:background="@android:color/holo_green_dark"
+        android:layout_below="@+id/C"
+        android:layout_alignLeft="@+id/C"
+        android:layout_alignStart="@+id/C" />
+
+</RelativeLayout>
